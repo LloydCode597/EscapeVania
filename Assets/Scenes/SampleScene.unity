@@ -21397,6 +21397,14 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: 0aeac417840f64549a995ee02fa46255, type: 2}
+    - target: {fileID: 1909412430140490732, guid: 7ae45b324530f5949ad0b8ea247b2162, type: 3}
+      propertyPath: deathKick.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1909412430140490732, guid: 7ae45b324530f5949ad0b8ea247b2162, type: 3}
+      propertyPath: deathKick.y
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2098622914844457519, guid: 7ae45b324530f5949ad0b8ea247b2162, type: 3}
       propertyPath: m_Name
       value: Player
