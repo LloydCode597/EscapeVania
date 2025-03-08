@@ -156,7 +156,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 2098622914844457519}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 0aeac417840f64549a995ee02fa46255, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -234,7 +234,9 @@ MonoBehaviour:
   runSpeed: 7
   jumpSpeed: 20
   climbSpeed: 5
-  deathKick: {x: 10, y: 10}
+  deathKick: {x: 0, y: 20}
+  bullet: {fileID: 6015033348212238253, guid: d09a70637d7863c4793b732d4f2a4b99, type: 3}
+  gun: {fileID: 6859895740903013436}
 --- !u!114 &556248702516478933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -290,7 +292,7 @@ Transform:
   m_GameObject: {fileID: 7768985841886132792}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.194, y: -0.136, z: 0}
+  m_LocalPosition: {x: 0.254, y: 0.066, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
